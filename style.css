@@ -4,25 +4,16 @@
 
     /* ====== Colors ====== */
     --color-dark: #1F2937;
-    /* hero + footer background */
     --color-light: #F9FAF8;
-    /* hero main text, logo text */
     --color-muted: #E5E7EB;
-    /* hero secondary, header links, quote bg */
     --color-accent: #3882F6;
-    /* button / CTA */
 
     /* ====== Font sizes ====== */
     --fs-hero-title: 48px;
-    /* hero main text */
     --fs-hero-sub: 18px;
-    /* hero secondary */
-    --fs-logo: 24px;
-    /* logo text */
+    --fs-logo: 48px;
     --fs-info: 36px;
-    /* info header */
     --fs-quote: 36px;
-    /* quote text */
 
     /* ====== Font weights ====== */
     --fw-bold: 900;
@@ -81,6 +72,28 @@ ol {
 }
 
 /* Header */
+.header {
+    background: var(--color-dark);
+    color: var(--color-light);
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 0;
+}
+
+.logo {
+    font: 48px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 1.5rem;
+    color: var(--color-muted);
+}
+
 
 /* Main */
 
