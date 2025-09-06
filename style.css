@@ -95,7 +95,7 @@ ol {
 }
 
 .logo {
-    font-size:36px;
+    font-size: 32px;
 }
 
 .nav ul {
@@ -144,7 +144,7 @@ ol {
 }
 
 /* Main */
-.main-content{
+.main-content {
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -170,6 +170,7 @@ ol {
     align-items: center;
     max-width: 200px;
     text-align: center;
+    color: var(--color-dark);
 }
 
 
@@ -186,15 +187,13 @@ ol {
     justify-content: center;
     align-items: center;
     background-color: var(--color-muted);
-    margin-bottom: 5rem;
 }
+
 .quote .container {
     max-width: 750px;
 }
 
-.quote .container blockquote {
-    
-}
+.quote .container blockquote {}
 
 .quote p:first-child {
     font-size: 32px;
@@ -208,5 +207,39 @@ ol {
     font-size: 18px;
 }
 
+.call-to-action {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .container {
+    width: 900px;
+    border-radius: .5rem;
+    background-color: var(--color-accent);
+    padding: 2.5rem 6rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action .container p:first-child {
+    font-size: 22px;
+    color: #fff;
+}
+
+.call-to-action .container p:last-child {
+    font-size: 14px;
+    color: var(--color-light);
+}
+
+.call-to-action .btn {
+    background-color: var(--color-accent);
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: bold;
+}
 
 /* Footer */
