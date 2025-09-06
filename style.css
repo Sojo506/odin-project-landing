@@ -179,4 +179,34 @@ ol {
     border-radius: .5rem;
 }
 
+
+.quote {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-muted);
+    margin-bottom: 5rem;
+}
+.quote .container {
+    max-width: 750px;
+}
+
+.quote .container blockquote {
+    
+}
+
+.quote p:first-child {
+    font-size: 32px;
+    color: var(--color-dark);
+    margin-bottom: 1rem;
+}
+
+.quote p:last-child {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
 /* Footer */
